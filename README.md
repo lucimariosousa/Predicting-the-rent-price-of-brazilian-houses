@@ -1,2 +1,1 @@
-# Predicting-the-rent-price-of-brazilian-houses
-in thiss
+# In this notebook we create a machine learning model to predict the rent prices of brazilian houses. The dataset was taken from [here](https://www.kaggle.com/datasets/rubenssjr/brasilian-houses-to-rent?resource=download). We used 10 features to train three different models, the [Lasso regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html), the [ElasticNet](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNet.html) and the [DummyRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyRegressor.html). It turns out that all three models have the same precision.
